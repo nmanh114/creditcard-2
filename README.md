@@ -34,12 +34,24 @@ Platform cho phép người dùng:
 
 ## ⚡ Setup
 
-> 📝 _TODO: bổ sung hướng dẫn cài đặt & chạy local sau khi có code_
+### Cách 1: Chạy trực tiếp
+Clone repo và mở file `index.html` bằng trình duyệt:
+
+\`\`\`bash
+git clone https://github.com/nmanh114/credit_card.git
+cd credit_card
+\`\`\`
+
+Sau đó double-click vào `index.html`, hoặc kéo file vào trình duyệt.
+
+### Cách 2: Chạy qua local server (khuyến nghị nếu có lỗi CORS)
+\`\`\`bash
+python -m http.server 8000
+\`\`\`
+Rồi mở `http://localhost:8000` trên trình duyệt.
 
 ## 🔗 Demo
 
 > 📝 _TODO: bổ sung link demo sau khi deploy_
 
 ---
-
-Made with 🧠 + ☕ by the team
