@@ -1,11 +1,45 @@
-<div align="center">
+# 💳 Credit Card Optimization & Recommendation Platform
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Web app giúp người dùng biết nên dùng thẻ tín dụng nào cho từng loại chi tiêu để tối đa hóa điểm thưởng / cashback. ✨
 
-  <h1>Built with AI Studio</h2>
+## 🧩 Problem
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Người dùng sở hữu nhiều credit card nhưng khó nhớ reward rate của từng thẻ, khó biết thẻ nào tối ưu cho từng category chi tiêu, và khó đánh giá tổng giá trị của cả ví thẻ. Mỗi thẻ có reward rate, bonus category, annual fee, point system và benefits khác nhau — khiến người dùng phải tự tra cứu/nhớ thông tin từ nhiều nguồn trước khi quyết định dùng thẻ nào. 😵‍💫
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 💡 Solution
 
-</div>
+Platform cho phép người dùng:
+
+- 🔍 **Discover** — Xác định ngay thẻ phù hợp nhất cho từng category chi tiêu (🍽 Dining, 🛒 Grocery, ✈️ Travel, ⛽ Gas, 🛍 Shopping)
+- ⚖️ **Compare** — So sánh trực quan reward rate và phí giữa các thẻ trong ví
+- 🧮 **Simulate** — Ước tính phần thưởng quy đổi dựa trên mức chi tiêu thực tế
+- 📈 **Optimize** *(mở rộng)* — Gợi ý chiến lược phân bổ thẻ để tối đa hóa tổng giá trị ví
+
+### 🚀 Core flow (MVP)
+
+`Add Cards` → `My Wallet` → `Chọn Category & nhập số tiền` → `Recommendation Result` (kèm giải thích) → `Compare thẻ`
+
+### 🧠 Recommendation logic
+
+- `Reward = Amount × Rate` theo category được chọn
+- Category không có rate riêng → áp dụng Default Rate (1x)
+- Vượt cap → phần vượt tính theo Default Rate
+- Nhiều thẻ đồng rate cao nhất (tie) → 🏆 ưu tiên thẻ có annual fee thấp hơn, đồng thời hiển thị đầy đủ các thẻ đồng hạng
+
+## 🛠 Tech Stack
+
+- 🎨 **Frontend:** HTML / CSS / JavaScript
+- 🗂 **Data:** Mock data — người dùng tự nhập thông tin thẻ qua form (chưa có card database/API thật)
+- ⚙️ **Backend:** _(cập nhật nếu có)_
+
+## ⚡ Setup
+
+> 📝 _TODO: bổ sung hướng dẫn cài đặt & chạy local sau khi có code_
+
+## 🔗 Demo
+
+> 📝 _TODO: bổ sung link demo sau khi deploy_
+
+---
+
+Made with 🧠 + ☕ by the team

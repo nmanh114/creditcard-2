@@ -1,0 +1,8 @@
+{
+  "name": "Credit Card Optimization & Recommendation Platform",
+  "description": "Nền tảng tối ưu hóa điểm thưởng & hoàn tiền thẻ tín dụng - Which Card Should I Use?",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
