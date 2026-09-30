@@ -37,17 +37,17 @@ Platform cho phép người dùng:
 ### Cách 1: Chạy trực tiếp
 Clone repo và mở file `index.html` bằng trình duyệt:
 
-\`\`\`bash
+```bash
 git clone https://github.com/nmanh114/credit_card.git
 cd credit_card
-\`\`\`
+```
 
 Sau đó double-click vào `index.html`, hoặc kéo file vào trình duyệt.
 
 ### Cách 2: Chạy qua local server (khuyến nghị nếu có lỗi CORS)
-\`\`\`bash
+```bash
 python -m http.server 8000
-\`\`\`
+```
 Rồi mở `http://localhost:8000` trên trình duyệt.
 
 ## 🔗 Demo
